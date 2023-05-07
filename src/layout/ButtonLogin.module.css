@@ -1,0 +1,8 @@
+.btn_login{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn_login svg{
+    color: #fff;
+}

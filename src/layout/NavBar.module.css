@@ -1,0 +1,35 @@
+.nav_container{
+    background-color: #343A40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1em;
+}
+.nav_container img{
+    padding: .5em;
+    width: 100px;
+    height: 100px;
+}
+.nav_container ul{
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+    padding-right: 2em;
+}
+.nav_container li{
+    list-style-type: none;
+    font-weight: 500;
+
+}
+
+.nav_container a{
+    text-decoration: none;
+    transition: .5s;
+    color: #fff;
+    opacity: .8;
+
+}
+
+.nav_container a:hover{
+    opacity: 1;
+}
