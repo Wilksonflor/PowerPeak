@@ -4,18 +4,23 @@
     align-items: center;
     justify-content: space-between;
     font-size: 1.1em;
+    /* border-bottom: 1px solid #fff ; */
 }
+
 .nav_container img{
     padding: .5em;
+    margin-left: 15px;
     width: 100px;
     height: 100px;
 }
+
 .nav_container ul{
     display: flex;
     gap: 30px;
     margin-right: 50px;
     padding-right: 2em;
 }
+
 .nav_container li{
     list-style-type: none;
     font-weight: 500;
