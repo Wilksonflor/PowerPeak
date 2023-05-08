@@ -1,4 +1,9 @@
 
+.btn_inscrever_Container a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
 .btn_inscrever{
     display: flex;
     align-items: center;
@@ -18,18 +23,12 @@
     cursor: pointer;
     opacity: .8;
     transition: .5s;
+  
 }
 
 .btn_inscrever:hover{
     opacity: 1;
 }
-.btn_inscrever a{
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-
-}
-
 
 .btn_inscrever svg{
     font-size: 1.2em;

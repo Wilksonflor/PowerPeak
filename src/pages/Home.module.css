@@ -22,9 +22,13 @@
 .section_container .text h2{
     color: #cdcd;
     font-size: 3em;
+    text-align: center;
 }
 .section_container .text p{
     color: #cdcdcd;
+    margin-top: 5px;
+    text-align: justify;
+    padding-inline: .8em;
 }
 
 
@@ -33,12 +37,9 @@
     margin-right: 80px;
     text-align: end;
     background-color: #BDE038;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     clip-path: polygon(74% 0, 99% 0%, 100% 100%, 41% 100%);
     width: 50%;
-    position: relative;
+    margin-top: 20px;
   
 }
 
