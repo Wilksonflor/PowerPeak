@@ -1,48 +1,79 @@
 .section_container{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 5px;
-
+    flex-wrap: wrap;
 }
+
+
 
 .section_container .text{
     width: 60%;
     height: auto;
     padding: 2em;
     color: #ffffffe9;
+    text-align: center;
 }
 
 
 .section_container .text h1{
-    font-size: 10em;
+    font-size: 9em;
     color: #fff;
     text-align: center;
+
 }
-.section_container .text h2{
+.section_container .text span{
     color: #cdcd;
-    font-size: 3em;
-    text-align: center;
+    font-size: 2.5em;
 }
 .section_container .text p{
-    color: #cdcdcd;
     margin-top: 5px;
+    margin: 0 auto;
+    width: 80%;
+    padding-block: 1em;
+    font-size: 1.2em;
+    color: #cdcdcd;
     text-align: justify;
-    padding-inline: .8em;
 }
 
 
 
-.section_container .img_container{
+.img_container{
+    position: relative;
     margin-right: 80px;
-    text-align: end;
-    background-color: #BDE038;
-    clip-path: polygon(74% 0, 99% 0%, 100% 100%, 41% 100%);
-    width: 50%;
-    margin-top: 20px;
-  
+    background: linear-gradient(80deg, #bde038, transparent);
+    width: 30%;
+    margin-top: 40px;
 }
 
-.section_container .img_container img{
-    
+.img_content{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.img_content::before,
+.img_content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: skewX(-20deg);
+    z-index: -1;
+}
+
+.img_content::after {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: skewX(20deg);
+}
+.img_content img{
+    width: 400px;
+    max-width: 100%
 }

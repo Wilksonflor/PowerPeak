@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 function BtnInscrever() {
   return (
     <div className={styles.btn_inscrever_Container}>
-      <Link to="/src/components/FormInscrever.js">
         <div className={styles.btn_inscrever}>
+      <Link to="/src/components/FormInscrever.js">
           Comece agora
+      </Link>
           <ArrowForwardIcon />
         </div>
-      </Link>
     </div>
   );
 }
