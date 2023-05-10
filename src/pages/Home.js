@@ -28,7 +28,7 @@ function Home() {
     </section>
 
     <div>
-      <h2>Slide</h2>
+      <h2>Slide</h2> 
 
       <div>
       
