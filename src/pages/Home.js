@@ -1,9 +1,7 @@
 import styles from "./Home.module.css";
 import casal_Home from "../img/casal_Home.png";
 import BtnInscrever from "../layout/BtnInscrever";
-
-import Grid from '@mui/material/Grid'; // Grid version 1
-
+import Services from "./Services";
 function Home() {
   return (
     <>
@@ -26,45 +24,7 @@ function Home() {
         </div>
       </div>
     </section>
-
-    <div>
-      <h2>Slide</h2> 
-
-      <div>
-      
-        <div>
-          foto
-          <p>texto</p>
-        </div>
-
-        <div>
-          foto
-          <p>texto</p>
-        </div>
-        
-        <div>
-          foto
-          <p>texto</p>
-        </div>
-        <div>
-          foto
-          <p>texto</p>
-        </div>
-
-        <div>
-          foto
-          <p>texto</p>
-        </div>
-
-        <div>
-          foto
-          <p>texto</p>
-        </div>
-
-      </div>
-
-    </div>
-
+    <Services/>
     </>
 
   );
